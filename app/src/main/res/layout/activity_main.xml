@@ -4,4 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="362dp">
+
+        <Button
+            android:id="@+id/lockButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lock" />
+
+        <Button
+            android:id="@+id/enableButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enable" />
+
+        <Button
+            android:id="@+id/disableButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disable" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
